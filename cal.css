@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.btn {
+    width: 68px;
+    padding: 20px;
+    margin: 0 4px;
+    border: 2px solid rgb(70, 70, 45);
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+}
+.btn:hover{
+    background-color: #cbc2c2d4;
+    border: 2px solid seagreen;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.row input {
+    width: 295px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(70, 70, 45);
+    border-radius: 5px;
+}
