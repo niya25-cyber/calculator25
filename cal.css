@@ -1,21 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #74949b;
+     margin: auto;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   left: 30%;
+   margin: auto;
+}
+
+
+.cal{
+    height: 100px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 450px;
 }
 
 .btn {
     width: 68px;
     padding: 20px;
-    margin: 0 4px;
-    border: 2px solid rgb(70, 70, 45);
+    margin: 0 12px;
+    border: 2px solid rgb(93, 68, 36);
     border-radius: 40px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 1.5rem;
 }
 .btn:hover{
+    color: white;
+    font-weight: 500;
     background-color: #cbc2c2d4;
     border: 2px solid seagreen;
+    box-shadow: 0 0 3px 5px rgba(116, 215, 222, 0.5);
+    
 }
 
 .row {
@@ -23,10 +55,35 @@ body {
 }
 
 .row input {
-    width: 295px;
-    font-size: 20px;
+    width: 350px;
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px 50px;
+    border: 2px solid rgb(70, 70, 45);
+    border-radius: 5px;
+}
+
+@media (max-width : 400px){
+
+    .btn {
+    width: 58px;
+    margin: 0 6px;
+    font-size: 1rem;
+}
+
+.cal{
+    height: 100px;
+    font-size: 2rem;
+    width: 350px;
+}
+
+.row input {
+    width: 280px;
+    font-size: 10px;
     margin: 0;
     padding: 10px 0px;
     border: 2px solid rgb(70, 70, 45);
     border-radius: 5px;
+}
+
 }
