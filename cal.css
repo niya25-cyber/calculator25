@@ -63,7 +63,7 @@ body {
     border-radius: 5px;
 }
 
-@media (max-width : 400px){
+@media (max-width : 480px){
 
     .btn {
     width: 58px;
